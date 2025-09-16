@@ -1,0 +1,416 @@
+{
+  "provider": {
+    "id": "gg-skonhetssalong-ab-19175",
+    "name": "G&G Beauty Salon AB",
+    "description": "Professional beauty salon in Stockholm focused on waxing and skincare. We offer high-quality treatments in a safe and clean environment.",
+    "rating": 4.5,
+    "reviewCount": 459,
+    "images": [
+      "/images/gg-salon/exterior.jpg",
+      "/images/gg-salon/interior-1.jpg",
+      "/images/gg-salon/interior-2.jpg",
+      "/images/gg-salon/treatment-room.jpg",
+      "/images/gg-salon/staff.jpg"
+    ],
+    "avatar": "/images/gg-salon/logo.jpg",
+    "location": {
+      "id": "loc-stockholm-styrmansgatan",
+      "address": "Styrmansgatan 50",
+      "city": "Stockholm",
+      "postalCode": "114 60",
+      "country": "Sweden",
+      "coordinates": {
+        "lat": 59.3293,
+        "lng": 18.0686
+      }
+    },
+    "categories": [
+      {
+        "id": "waxing",
+        "name": "Waxing",
+        "slug": "waxing"
+      },
+      {
+        "id": "skincare",
+        "name": "Skincare",
+        "slug": "skincare"
+      }
+    ],
+    "services": [
+      {
+        "id": "armpit-waxing",
+        "name": "Armpit waxing",
+        "description": "Quick and efficient armpit waxing",
+        "duration": 15,
+        "originalPrice": 94,
+        "price": 74,
+        "discount": 20,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "isPopular": true,
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "brazilian-waxing-first-time",
+        "name": "Brazilian waxing for women (first time)",
+        "description": "First-time Brazilian waxing for women with extra care",
+        "duration": 50,
+        "originalPrice": 900,
+        "price": 576,
+        "discount": 36,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "waxing-shoulders",
+        "name": "Waxing shoulders",
+        "description": "Waxing of shoulders and upper back",
+        "duration": 15,
+        "originalPrice": 255,
+        "price": 198,
+        "discount": 22,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "bikini-waxing",
+        "name": "Bikini waxing",
+        "description": "Classic bikini waxing",
+        "duration": 20,
+        "originalPrice": 400,
+        "price": 240,
+        "discount": 40,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "brazilian-waxing-revisit",
+        "name": "Brazilian waxing for women (revisit)",
+        "description": "Return Brazilian waxing for existing customers",
+        "duration": 20,
+        "originalPrice": 690,
+        "price": 396,
+        "discount": 43,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "waxing-chest-men",
+        "name": "Waxing chest for men",
+        "description": "Professional chest waxing for men",
+        "duration": 30,
+        "originalPrice": 520,
+        "price": 192,
+        "discount": 63,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "waxing-half-leg-narrow",
+        "name": "Waxing half leg (narrow leg)",
+        "description": "Waxing of half leg for narrow legs",
+        "duration": 25,
+        "originalPrice": 350,
+        "price": 210,
+        "discount": 40,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "waxing-full-leg",
+        "name": "Waxing full leg",
+        "description": "Complete leg waxing",
+        "duration": 45,
+        "originalPrice": 650,
+        "price": 390,
+        "discount": 40,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "waxing-full-arm",
+        "name": "Waxing full arm",
+        "description": "Complete arm waxing",
+        "duration": 30,
+        "originalPrice": 450,
+        "price": 270,
+        "discount": 40,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        },
+        "availableUntil": "17 Sep"
+      },
+      {
+        "id": "eyebrow-waxing",
+        "name": "Eyebrow waxing",
+        "description": "Professional eyebrow shaping with wax",
+        "duration": 15,
+        "price": 180,
+        "category": {
+          "id": "waxing",
+          "name": "Waxing",
+          "slug": "waxing"
+        }
+      }
+    ],
+    "servicesByCategory": {
+      "Waxing": [
+        {
+          "id": "armpit-waxing",
+          "name": "Armpit waxing",
+          "description": "Quick and efficient armpit waxing",
+          "duration": 15,
+          "originalPrice": 94,
+          "price": 74,
+          "discount": 20,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "isPopular": true,
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "brazilian-waxing-first-time",
+          "name": "Brazilian waxing for women (first time)",
+          "description": "First-time Brazilian waxing for women with extra care",
+          "duration": 50,
+          "originalPrice": 900,
+          "price": 576,
+          "discount": 36,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "waxing-shoulders",
+          "name": "Waxing shoulders",
+          "description": "Waxing of shoulders and upper back",
+          "duration": 15,
+          "originalPrice": 255,
+          "price": 198,
+          "discount": 22,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "bikini-waxing",
+          "name": "Bikini waxing",
+          "description": "Classic bikini waxing",
+          "duration": 20,
+          "originalPrice": 400,
+          "price": 240,
+          "discount": 40,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "brazilian-waxing-revisit",
+          "name": "Brazilian waxing for women (revisit)",
+          "description": "Return Brazilian waxing for existing customers",
+          "duration": 20,
+          "originalPrice": 690,
+          "price": 396,
+          "discount": 43,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "waxing-chest-men",
+          "name": "Waxing chest for men",
+          "description": "Professional chest waxing for men",
+          "duration": 30,
+          "originalPrice": 520,
+          "price": 192,
+          "discount": 63,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "waxing-half-leg-narrow",
+          "name": "Waxing half leg (narrow leg)",
+          "description": "Waxing of half leg for narrow legs",
+          "duration": 25,
+          "originalPrice": 350,
+          "price": 210,
+          "discount": 40,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "waxing-full-leg",
+          "name": "Waxing full leg",
+          "description": "Complete leg waxing",
+          "duration": 45,
+          "originalPrice": 650,
+          "price": 390,
+          "discount": 40,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "waxing-full-arm",
+          "name": "Waxing full arm",
+          "description": "Complete arm waxing",
+          "duration": 30,
+          "originalPrice": 450,
+          "price": 270,
+          "discount": 40,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          },
+          "availableUntil": "17 Sep"
+        },
+        {
+          "id": "eyebrow-waxing",
+          "name": "Eyebrow waxing",
+          "description": "Professional eyebrow shaping with wax",
+          "duration": 15,
+          "price": 180,
+          "category": {
+            "id": "waxing",
+            "name": "Waxing",
+            "slug": "waxing"
+          }
+        }
+      ]
+    },
+    "isVerified": true,
+    "openingHours": [
+      {
+        "dayOfWeek": 1,
+        "openTime": "09:00",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 2,
+        "openTime": "09:00",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 3,
+        "openTime": "09:00",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 4,
+        "openTime": "09:00",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 5,
+        "openTime": "09:00",
+        "closeTime": "19:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 6,
+        "openTime": "10:00",
+        "closeTime": "16:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": 0,
+        "openTime": "00:00",
+        "closeTime": "00:00",
+        "isClosed": true
+      }
+    ],
+    "priceRange": {
+      "min": 74,
+      "max": 900
+    },
+    "contact": {
+      "phone": "+46 8 123 456 78",
+      "email": "info@ggbeauty.se",
+      "website": "https://www.ggbeauty.se"
+    },
+    "features": [
+      "Gift Cards",
+      "Health Card",
+      "Online Booking",
+      "Contactless Payment"
+    ],
+    "staff": [
+      {
+        "id": "staff-1",
+        "name": "Gabriella",
+        "avatar": "/images/staff/gabriella.jpg",
+        "specialties": ["Brazilian waxing", "Skincare"]
+      },
+      {
+        "id": "staff-2", 
+        "name": "Gina",
+        "avatar": "/images/staff/gina.jpg",
+        "specialties": ["Waxing", "Eyebrows"]
+      }
+    ]
+  }
+}
