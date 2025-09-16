@@ -1,0 +1,243 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Massage",
+      "slug": "massage",
+      "description": "Relaxing massage and spa treatments",
+      "image": "/images/categories/massage.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Hair Salon",
+      "slug": "hair-salon",
+      "description": "Cutting, coloring and styling",
+      "image": "/images/categories/hair.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Nails",
+      "slug": "nails",
+      "description": "Manicure, pedicure and nail extensions",
+      "image": "/images/categories/nails.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Facial Treatment",
+      "slug": "facial-treatment",
+      "description": "Skincare and facial treatments",
+      "image": "/images/categories/facial.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Fitness",
+      "slug": "fitness",
+      "description": "Personal training and group training",
+      "image": "/images/categories/fitness.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Wellness",
+      "slug": "wellness",
+      "description": "Health and wellbeing",
+      "image": "/images/categories/wellness.jpg"
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "name": "Catarina's Massage & Health",
+      "description": "I perform classic massage, lymphatic massage, cupping, breathing massage and tactile massage.",
+      "rating": 4.8,
+      "reviewCount": 183,
+      "images": [
+        "/images/providers/catarina-1.jpg",
+        "/images/providers/catarina-2.jpg",
+        "/images/providers/catarina-3.jpg"
+      ],
+      "avatar": "/images/avatars/catarina.jpg",
+      "location": {
+        "id": "1",
+        "address": "Hägggatan 6",
+        "city": "Stockholm",
+        "postalCode": "11347",
+        "country": "Sweden",
+        "coordinates": {
+          "lat": 59.3293,
+          "lng": 18.0686
+        }
+      },
+      "categories": [
+        {
+          "id": "1",
+          "name": "Massage",
+          "slug": "massage"
+        },
+        {
+          "id": "7",
+          "name": "Health",
+          "slug": "health"
+        }
+      ],
+      "services": [
+        {
+          "id": "1",
+          "name": "Classic massage",
+          "description": "Relaxing full body massage",
+          "duration": 60,
+          "price": 650,
+          "category": {
+            "id": "1",
+            "name": "Massage",
+            "slug": "massage"
+          },
+          "isPopular": true
+        },
+        {
+          "id": "2",
+          "name": "Lymphatic massage",
+          "description": "Stimulates the lymphatic system",
+          "duration": 75,
+          "price": 750,
+          "category": {
+            "id": "1",
+            "name": "Massage",
+            "slug": "massage"
+          }
+        }
+      ],
+      "isVerified": true,
+      "priceRange": {
+        "min": 450,
+        "max": 850
+      },
+      "openingHours": [
+        {
+          "dayOfWeek": 1,
+          "openTime": "09:00",
+          "closeTime": "18:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 2,
+          "openTime": "09:00",
+          "closeTime": "18:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 3,
+          "openTime": "09:00",
+          "closeTime": "18:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 4,
+          "openTime": "09:00",
+          "closeTime": "18:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 5,
+          "openTime": "09:00",
+          "closeTime": "17:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 6,
+          "openTime": "10:00",
+          "closeTime": "15:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": 0,
+          "openTime": "00:00",
+          "closeTime": "00:00",
+          "isClosed": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dark & Bright Haircouture",
+      "description": "Hello and welcome! All our booked appointments must be cancelled 48h before scheduled time",
+      "rating": 4.6,
+      "reviewCount": 476,
+      "images": [
+        "/images/providers/darkbright-1.jpg",
+        "/images/providers/darkbright-2.jpg",
+        "/images/providers/darkbright-3.jpg"
+      ],
+      "location": {
+        "id": "2",
+        "address": "Splängatan 21",
+        "city": "Malmö",
+        "postalCode": "21234",
+        "country": "Sweden",
+        "coordinates": {
+          "lat": 55.6049,
+          "lng": 13.0038
+        }
+      },
+      "categories": [
+        {
+          "id": "2",
+          "name": "Hair Salon",
+          "slug": "hair-salon"
+        },
+        {
+          "id": "8",
+          "name": "Hair Coloring",
+          "slug": "hair-coloring"
+        }
+      ],
+      "services": [
+        {
+          "id": "3",
+          "name": "Cut & Styling",
+          "description": "Professional cut and styling",
+          "duration": 45,
+          "price": 450,
+          "category": {
+            "id": "2",
+            "name": "Hair Salon",
+            "slug": "hair-salon"
+          },
+          "isPopular": true
+        },
+        {
+          "id": "4",
+          "name": "Hair Coloring",
+          "description": "Hair coloring with premium colors",
+          "duration": 120,
+          "price": 850,
+          "category": {
+            "id": "2",
+            "name": "Hair Salon",
+            "slug": "hair-salon"
+          }
+        }
+      ],
+      "isVerified": true,
+      "priceRange": {
+        "min": 350,
+        "max": 1200
+      }
+    }
+  ],
+  "giftCards": [
+    {
+      "id": "1",
+      "title": "Gift Card - Your Choice",
+      "description": "Valid for all services from all our partners",
+      "image": "/images/gift-cards/general.jpg",
+      "price": 500
+    },
+    {
+      "id": "2",
+      "title": "Massage & Wellness",
+      "description": "Specialized in massage and wellness treatments",
+      "image": "/images/gift-cards/massage.jpg",
+      "price": 750
+    }
+  ]
+}
