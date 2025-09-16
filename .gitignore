@@ -25,7 +25,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
 .env*.local
 
 # vercel
@@ -36,14 +35,12 @@ yarn-error.log*
 next-env.d.ts
 
 # custom workspace settings
-.vscode
 .idea
 
 # worker
 sw.js
 workbox-*.*
 .react-email
-.env*
 .flaskenv*
 !.env.project
 !.env.vault
@@ -52,3 +49,7 @@ workbox-*.*
 
 .cursorrules
 .envrc
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
