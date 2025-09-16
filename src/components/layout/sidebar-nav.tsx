@@ -49,7 +49,7 @@ export default function SidebarNav({ className, ...props }: SidebarNavProps) {
             "justify-start"
           )}
         >
-          {<item.icon className="mr-2 h-4 w-4 " />} {item.title}
+          {<item.icon className="mr-2 h-4 w-4" />} {item.title}
         </Link>
       ))}
 
