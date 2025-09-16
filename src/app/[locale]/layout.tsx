@@ -114,11 +114,9 @@ const fontHeading = localFont({
 
 export default async function RootLayout({
   children,
-  loginDialog,
   params,
 }: {
   children: React.ReactNode;
-  loginDialog: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
@@ -134,10 +132,7 @@ export default async function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AnnouncementBanner />
           <Header />
-          <main>
-            {children}
-            {loginDialog}
-          </main>
+          <main>{children}</main>
           <I18nProviderClient locale={locale}>
             <Footer />
           </I18nProviderClient>
