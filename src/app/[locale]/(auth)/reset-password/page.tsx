@@ -1,9 +1,9 @@
 import { redirect } from "next/navigation";
-import LoginModal from "~/components/layout/login-modal";
+import { ResetPasswordForm } from "~/components/auth/reset-password-form";
 import { getCurrentSession } from "~/lib/server/auth/session";
 
-export default async function Login() {
+export default async function ResetPassword() {
   const { session } = await getCurrentSession();
   if (session) return redirect("/dashboard");
-  return <LoginModal />;
+  return <ResetPasswordForm />;
 }
