@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "dependabot/npm_and_yarn/eslint-9.38.0",
+    "dependabot/npm_and_yarn/next-16.0.0",
+    "dependabot/npm_and_yarn/postcss-8.5.6",
+    "dependabot/npm_and_yarn/types/node-24.9.1",
+    "dependabot/npm_and_yarn/zod-4.1.12",
+    "main"
+  ],
+  "parent": {
+    "dependabot/npm_and_yarn/eslint-9.38.0": "main",
+    "dependabot/npm_and_yarn/next-16.0.0": "main",
+    "dependabot/npm_and_yarn/postcss-8.5.6": "main",
+    "dependabot/npm_and_yarn/types/node-24.9.1": "main",
+    "dependabot/npm_and_yarn/zod-4.1.12": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "dependabot/npm_and_yarn/eslint-9.38.0",
+    "dependabot/npm_and_yarn/next-16.0.0",
+    "dependabot/npm_and_yarn/postcss-8.5.6",
+    "dependabot/npm_and_yarn/types/node-24.9.1",
+    "dependabot/npm_and_yarn/zod-4.1.12"
+  ]
+}
